@@ -1,0 +1,14 @@
+pipeline
+{
+ agent any
+ stages
+ {
+     stage('contidownload')
+     {
+         steps
+         {
+             git 'https://github.com/IntelliqDevops/maven7.git'
+         }
+     }
+}
+}
